@@ -1,16 +1,16 @@
 Pod::Spec.new do |spec|
     spec.name                   = 'TeyaUnifiedEposSDK'
-    spec.version                = '0.0.2-alpha02'
+    spec.version                = '0.0.2-alpha04'
     spec.homepage               = 'https://docs.teya.com'
     spec.source                 = {
-        :http => 'https://cdn.teya.com/static/c588ca20/TeyaUnifiedEposSDK-0.0.2-alpha02.xcframework.zip'
+        :http => 'https://cdn.teya.com/static/c588ca20/TeyaUnifiedEposSDK-0.0.2-alpha04.xcframework.zip'
     }
     spec.authors                = 'Teya'
     spec.license                = {
         :type => 'MIT',
         :text => 'MIT License
 
-Copyright (c) 2025 YourFramework
+Copyright (c) 2025 Teya
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
