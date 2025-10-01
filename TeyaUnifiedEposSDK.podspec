@@ -12,6 +12,16 @@ Pod::Spec.new do |spec|
     spec.libraries              = 'c++'
     spec.requires_arc           = true
     spec.resources = ['TeyaUnifiedEposSDK.xcframework/ios-arm64/TeyaUnifiedEposSDK.framework/compose-resources']
+
+    # Add architecture exclusions - XCFramework doesn't include x86_64 simulator slice
+    # x86_64 is only needed for iOS Simulator on Intel-based Macs
+    spec.pod_target_xcconfig = {
+        'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'x86_64'
+    }
+    spec.user_target_xcconfig = {
+        'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'x86_64'
+    }
+
     spec.license                = {
         :type => 'Apache-2.0',
         :text => '
