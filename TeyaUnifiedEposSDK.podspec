@@ -1,9 +1,9 @@
 Pod::Spec.new do |spec|
     spec.name                   = 'TeyaUnifiedEposSDK'
-    spec.version                = '1.1.0-alpha01'
+    spec.version                = '1.1.0'
     spec.homepage               = 'https://docs.teya.com'
     spec.source                 = {
-        :http => 'https://cdn.teya.com/static/2bbd9f0b/TeyaUnifiedEposSDK-1.1.0-alpha01.xcframework.zip'
+        :http => 'https://cdn.teya.com/static/2bbd9f0b/TeyaUnifiedEposSDK-1.1.0.xcframework.zip'
     }
     spec.authors                = 'Teya'
     spec.summary                = 'Teya PosLink SDK'
