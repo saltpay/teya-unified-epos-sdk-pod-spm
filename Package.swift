@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "TeyaUnifiedEposSDK",
-            url: "https://cdn.teya.com/static/2bbd9f0b/TeyaUnifiedEposSDK-1.6.1-alpha02.xcframework.zip",
-            checksum: "be00ab375c79bb0f199ff2189de5c803f091c434dc605bf7ce43de0db99a1fb3"
+            url: "https://cdn.teya.com/static/2bbd9f0b/TeyaUnifiedEposSDK-1.7.0.xcframework.zip",
+            checksum: "f071e6d383d15b842aa371b100d232ba6c3b05ed2e7ea334514bcb7fc594c774"
         )
     ]
 )
